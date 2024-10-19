@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprende en 15 Minutos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Aprende cualquier cosa en 15 minutos</h1>
+  </header>
+  
+  <main>
+    <section>
+      <h2>Comienza a aprender</h2>
+      <p>Selecciona un tema y empieza a aprender en sesiones rápidas de 2-3 minutos.</p>
+      <button onclick="startLearning()">Iniciar aprendizaje</button>
+    </section>
+    
+    <section id="lesson-content" style="display: none;">
+      <h2>Tu lección</h2>
+      <div id="lesson"></div>
+      <button onclick="nextLesson()">Siguiente Lección</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
